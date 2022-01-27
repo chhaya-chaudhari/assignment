@@ -1,7 +1,7 @@
 # Assignment
 
 This repository have 2 problems They are:
-##1. Problem 1
+## Problem 1
 
 Write a RESTful web service which talks to a 3rd party weather service and caches data for 2 hours.
 It exposes APIs to get weather by city, country and by polar coordinates.
@@ -30,7 +30,7 @@ Params:
 
 lat, lon coordinates of the location of your interest
 
-##2. Problem 2
+## Problem 2
 
 Given two sorted arrays which contain positive integers. Merge both and produce third array in sorted order.
 Array 1: [1,3,5,7,8]
