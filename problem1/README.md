@@ -21,5 +21,5 @@ mvn spring-boot:run
 
 Swagger Document can be accessed by hitting the following url in Browser.
 ```
-localhost:8080/swagger-ui.html
+localhost:9090/swagger-ui.html
 ```
