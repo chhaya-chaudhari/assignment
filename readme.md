@@ -39,16 +39,5 @@ Result: [1,2,3,4,5,6,7,8,9,10]
 
 int[] merge(int []arr1, int []arr2) {
 }
-## Build
 
-Project build can be done by following command from the root directory.
-
-```bash
-mvn clean install
-```
-## Run
-Service can be run by the following command.
-```
-mvn spring-boot:run
-```
 
