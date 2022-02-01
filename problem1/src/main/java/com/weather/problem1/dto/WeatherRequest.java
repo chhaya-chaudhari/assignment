@@ -15,10 +15,10 @@ import javax.validation.constraints.NotBlank;
 @EqualsAndHashCode
 public class WeatherRequest {
     @NotBlank(groups = OnCitySearch.class, message = "City name is required")
-    String city;
-    String country;
+    private String city;
+    private String country;
     @NotBlank(groups = OnLatLngSearch.class, message = "Latitude is required")
-    String lat;
+    private String lat;
     @NotBlank(groups = OnLatLngSearch.class, message = "Longitude is required")
-    String lng;
+    private String lng;
 }

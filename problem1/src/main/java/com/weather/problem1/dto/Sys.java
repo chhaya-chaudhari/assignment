@@ -4,9 +4,9 @@ import lombok.Setter;
 
 @Setter
 public class Sys{
-    public int type;
-    public int id;
-    public String country;
-    public int sunrise;
-    public int sunset;
+    private int type;
+    private int id;
+    private String country;
+    private int sunrise;
+    private int sunset;
 }

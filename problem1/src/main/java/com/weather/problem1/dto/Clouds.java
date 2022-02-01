@@ -4,5 +4,5 @@ import lombok.Setter;
 
 @Setter
 public class Clouds{
-    public int all;
+     private int all;
 }
