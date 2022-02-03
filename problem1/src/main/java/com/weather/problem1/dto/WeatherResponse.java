@@ -1,10 +1,12 @@
 package com.weather.problem1.dto;
 
+import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
 
 @Setter
+@Getter
 public class WeatherResponse{
     private Coord coord;
     private List<Weather> weather;
